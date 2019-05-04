@@ -216,6 +216,9 @@ void loop() {
             client.println("<tr><td>UV Light</td><td><span class=\"sensor\">");
             client.println(uv.readUV());
             client.println(" </span></td></tr>"); 
+            client.println("<tr><td>Humidity</td><td><span class=\"sensor\">");
+            client.println(hdc1080.readHumidity());
+            client.println("     %</span></td></tr>"); 
             client.println("<tr><td>Carbon Dioxide</td><td><span class=\"sensor\">");
             client.println(eco2);
             client.println("     ppm</span></td></tr>"); 
