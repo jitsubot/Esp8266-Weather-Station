@@ -8,7 +8,7 @@
 #include "ccs811.h"  // CCS811 library
 const char* server1 = "api.thingspeak.com";
 const char* ssid     = "TuxBot"; // Your ssid
-const char* password = "8mU0=nW34."; // Your Password
+const char* password = "YourPassword"; // Your Password
 WiFiServer server(80);
 WiFiClient client;
 Adafruit_BMP280 bmp; // I2C
