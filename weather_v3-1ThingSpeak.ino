@@ -17,7 +17,7 @@ Adafruit_SSD1306 display(-1); // Reset pin # (or -1 if sharing Arduino reset pin
 
 const char* server1 = "api.thingspeak.com";
 const char* ssid     = "TuxBot"; // Your ssid
-const char* password = "8mU0=nW34."; // Your Password
+const char* password = "*******"; // Your Password
 WiFiServer server(80);
 WiFiClient client;
 Adafruit_BMP280 bmp; // I2C
